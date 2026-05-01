@@ -20,7 +20,7 @@ function initParticles() {
   const colors    = new Float32Array(COUNT * 3);
 
   const c1 = new THREE.Color(0x6c63ff);
-  const c2 = new THREE.Color(0x00d4ff);
+  const c2 = new THREE.Color(0x0ea5e9);
 
   for (let i = 0; i < COUNT; i++) {
     positions[i * 3]     = (Math.random() - 0.5) * 120;
@@ -42,7 +42,7 @@ function initParticles() {
     size: 0.18,
     vertexColors: true,
     transparent: true,
-    opacity: 0.7,
+    opacity: 0.5,
     sizeAttenuation: true,
   });
 
