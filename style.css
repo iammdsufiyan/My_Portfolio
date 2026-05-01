@@ -962,9 +962,10 @@ img { max-width: 100%; }
   justify-content: center;
   font-size: 1.5rem;
 }
-.oracle { background: rgba(255, 165, 0, 0.15); color: #ffa500; }
-.nest   { background: rgba(224, 54, 68, 0.15);  color: #e03644; }
-.ai     { background: rgba(0, 212, 255, 0.12);  color: var(--accent2); }
+.oracle    { background: rgba(255, 165, 0, 0.15); color: #ffa500; }
+.nest      { background: rgba(224, 54, 68, 0.15);  color: #e03644; }
+.ai        { background: rgba(0, 212, 255, 0.12);  color: var(--accent2); }
+.hackathon { background: rgba(255, 197, 0, 0.12);  color: #ffc500; }
 
 .cert-body h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
 .cert-body p  { font-size: 0.85rem; color: var(--text-sec); }
@@ -992,6 +993,11 @@ img { max-width: 100%; }
   font-size: 0.72rem;
   font-weight: 600;
   font-family: 'Fira Code', monospace;
+}
+.cert-badge.participated {
+  background: rgba(255, 197, 0, 0.12);
+  border-color: rgba(255, 197, 0, 0.35);
+  color: #ffc500;
 }
 
 /* =============================================
