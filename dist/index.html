@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Md Sufiyan – Full Stack Developer skilled in Node.js, React, AWS and backend engineering." />
+  <meta property="og:title" content="Md Sufiyan | Full Stack Developer" />
+  <meta property="og:description" content="Portfolio of Md Sufiyan – Full Stack Developer, SDE Intern, AWS enthusiast." />
+  <title>Md Sufiyan | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script type="module" crossorigin src="/assets/index-CM5zFKWK.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DA-e6NQ0.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="bracket">&lt;</span>Md Sufiyan<span class="bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"          class="nav-link">About</a></li>
+        <li><a href="#skills"         class="nav-link">Skills</a></li>
+        <li><a href="#experience"     class="nav-link">Experience</a></li>
+        <li><a href="#projects"       class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact"        class="nav-link contact-nav">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section id="home" class="hero">
+    <canvas id="bg-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-greeting">
+        <span class="dot-pulse"></span> Available for Opportunities
+      </p>
+      <h1 class="hero-name">Hi, I'm <span class="gradient-text">Md Sufiyan</span></h1>
+      <h2 class="hero-role">
+        <span id="typing-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        Full Stack Developer passionate about building scalable backend systems,
+        cloud infrastructure on AWS, and clean RESTful APIs. Currently pursuing
+        B.Tech CS at Jamia Hamdard, Delhi.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-code"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i> Hire Me
+        </a>
+        <a href="mailto:info.sufiyan.md@gmail.com" class="btn btn-ghost">
+          <i class="fas fa-download"></i> Resume
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/md-sufiyan007/" target="_blank" rel="noopener" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/iammdsufiyan" target="_blank" rel="noopener" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://leetcode.com/u/u_aremdsufian/" target="_blank" rel="noopener" title="LeetCode">
+          <i class="fas fa-code"></i>
+        </a>
+        <a href="mailto:info.sufiyan.md@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 &mdash; About Me</span>
+        <h2 class="section-title">Who Am I?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar">MS</div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring-2"></div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-box reveal">
+              <span class="stat-num" data-target="2">0</span><span class="stat-unit"></span>
+              <span class="stat-label">Internships<br>Completed</span>
+            </div>
+            <div class="stat-box reveal">
+              <span class="stat-num" data-target="5">0</span><span class="stat-unit">+</span>
+              <span class="stat-label">Projects<br>Built</span>
+            </div>
+            <div class="stat-box reveal">
+              <span class="stat-num" data-target="5">0</span><span class="stat-unit">+</span>
+              <span class="stat-label">Certifi-<br>cations</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-block">
+          <p>
+            I'm a <strong>Full Stack Developer</strong> and Computer Science student at
+            <strong>Jamia Hamdard, Delhi</strong>. I've built and shipped real-world backend
+            services during my internship at <strong>Primathon Technology Venture</strong> in
+            Gurgaon, where I worked on production-level Node.js APIs and MySQL optimizations.
+          </p>
+          <p>
+            I'm passionate about <strong>AWS cloud infrastructure</strong>, backend performance
+            tuning, and writing clean, maintainable code that scales. Outside work, I grind
+            algorithmic problems on LeetCode to sharpen my DSA and problem-solving skills.
+          </p>
+          <p>
+            I'm currently looking for <strong>full-time SDE roles, internships</strong>, or
+            exciting freelance projects where I can make a real impact.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">India</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-val">info.sufiyan.md@gmail.com</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-val">+91 8789109943</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Degree</span>
+                <span class="info-val">B.Tech Computer Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS ====== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 &mdash; Skills</span>
+        <h2 class="section-title">My Tech Stack</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-code"></i></span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">C++</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-layer-group"></i></span>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">NestJS</span>
+            <span class="tag">Angular</span>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-database"></i></span>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">SQL</span>
+            <span class="tag highlight-tag">ClickHouse</span>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-cloud"></i></span>
+            <h3>Cloud &amp; DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag highlight-tag">AWS</span>
+            <span class="tag">VPC</span>
+            <span class="tag">Lambda</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitLab</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-brain"></i></span>
+            <h3>CS Fundamentals</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">DSA</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">MVC</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Complexity</span>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal">
+          <div class="skill-cat-header">
+            <span class="skill-icon"><i class="fas fa-tools"></i></span>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">VS Code</span>
+            <span class="tag">Postman</span>
+            <span class="tag">Shopify</span>
+            <span class="tag">Remix</span>
+            <span class="tag">Polaris</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERIENCE ====== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 &mdash; Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="tl-dot tl-dot-current"></div>
+          <div class="tl-card tl-card-current">
+            <span class="tl-current-badge"><i class="fas fa-circle"></i> Current Role</span>
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Product Intern</h3>
+                <p class="tl-company"><i class="fas fa-building"></i> BIS Research</p>
+                <p class="tl-loc"><i class="fas fa-map-marker-alt"></i> Remote · Product Team</p>
+              </div>
+              <span class="tl-date">May 2026 – Present</span>
+            </div>
+            <ul class="tl-points">
+              <li>Working on a <strong>healthcare analytics platform</strong> handling <strong>111.25M+ US GI procedure records</strong> — contributing to data pipeline analysis and large-scale dataset management</li>
+              <li>Contributed to <strong>database schema design</strong> and <strong>ClickHouse migration planning</strong> to optimize query performance on massive healthcare datasets</li>
+              <li>Authored comprehensive <strong>API documentation</strong> and technical project documentation prepared for management review</li>
+              <li>Involved in end-to-end data pipeline analysis — understanding data flows from ingestion to reporting for a production analytics product</li>
+            </ul>
+            <div class="tl-tech">
+              <span>ClickHouse</span><span>SQL</span><span>Data Pipelines</span>
+              <span>API Docs</span><span>Schema Design</span><span>Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">SDE Intern</h3>
+                <p class="tl-company"><i class="fas fa-building"></i> Primathon Technology Venture</p>
+                <p class="tl-loc"><i class="fas fa-map-marker-alt"></i> Gurgaon, Haryana · On-site</p>
+              </div>
+              <span class="tl-date">June 2025 – Sept 2025</span>
+            </div>
+            <ul class="tl-points">
+              <li>Built and improved backend APIs using <strong>Node.js</strong> — focused on performance, code cleanliness, and maintainability with <strong>HTML, CSS, JavaScript, and Next.js</strong></li>
+              <li>Optimized <strong>MySQL database queries</strong>, reducing API response times and improving system stability under high traffic loads</li>
+              <li>Reorganized backend services — modularized controllers and reusable components, cutting feature development time significantly</li>
+              <li>Collaborated on testing, debugging, and deploying backend changes in production-level workflows with performance tuning and cloud-ready setups</li>
+            </ul>
+            <div class="tl-tech">
+              <span>Node.js</span><span>MySQL</span><span>Next.js</span>
+              <span>JavaScript</span><span>REST APIs</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-dot tl-dot-edu"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">B.Tech in Computer Science</h3>
+                <p class="tl-company"><i class="fas fa-university"></i> Jamia Hamdard</p>
+                <p class="tl-loc"><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+              </div>
+              <span class="tl-date">Aug 2022 – Present</span>
+            </div>
+            <ul class="tl-points">
+              <li>Studying core CS subjects: Data Structures, Algorithms, OOP, Computer Networks, and Databases</li>
+              <li>Actively building projects and gaining real-world experience through internships and self-study</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 &mdash; Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal">
+          <div class="project-top">
+            <div class="project-icon-wrap">
+              <i class="fab fa-aws"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/iammdsufiyan" target="_blank" rel="noopener" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" title="Live Demo" class="disabled-link">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-name">AWS Cloud Networking &amp; Lambda</h3>
+          <p class="project-desc">
+            Deployed a secure AWS infrastructure with VPC, NAT Gateway, Internet Gateway, and custom subnets.
+            Implemented automated Lambda workflows to analyze VPC flow logs and trigger real-time security alerts.
+          </p>
+          <div class="project-metrics">
+            <div class="metric">
+              <span class="metric-num">100%</span>
+              <span class="metric-label">Reduced Unauthorized Access</span>
+            </div>
+            <div class="metric">
+              <span class="metric-num">50%</span>
+              <span class="metric-label">Less Manual Monitoring</span>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span>AWS</span><span>VPC</span><span>Lambda</span>
+            <span>IGW</span><span>NAT</span><span>Subnets</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon-wrap shopify">
+              <i class="fab fa-shopify"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/iammdsufiyan/pop-up-app-shopify" target="_blank" rel="noopener" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://github.com/iammdsufiyan/pop-up-app-shopify" target="_blank" rel="noopener" title="View Project">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-name">Shopify Popup App</h3>
+          <p class="project-desc">
+            Designed and developed a Shopify embedded popup application using Remix, Polaris, and Liquid
+            for customizable on-store experiences. Built two major features: Percentage Discount Popup and
+            Sidebar Discount Popup.
+          </p>
+          <div class="project-tech">
+            <span>Remix</span><span>Shopify</span><span>Polaris</span>
+            <span>JavaScript</span><span>Liquid</span>
+          </div>
+        </div>
+
+        <!-- More projects coming card -->
+        <div class="project-card more-card reveal">
+          <div class="more-icon"><i class="fas fa-rocket"></i></div>
+          <h3>More Projects Coming</h3>
+          <p>Currently building more exciting projects. Star my GitHub to stay updated!</p>
+          <a href="https://github.com/iammdsufiyan" target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fab fa-github"></i> Visit GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CERTIFICATIONS ====== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 &mdash; Certifications</span>
+        <h2 class="section-title">My Credentials</h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-glow"></div>
+          <div class="cert-icon-wrap oracle">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="cert-body">
+            <h3>Oracle Cloud Infrastructure 2025</h3>
+            <p>Certified Generative AI Professional</p>
+            <span class="cert-issuer">Oracle</span>
+          </div>
+          <span class="cert-badge">Verified</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-glow"></div>
+          <div class="cert-icon-wrap nest">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="cert-body">
+            <h3>NestJS Backend Development</h3>
+            <p>Advanced Node.js framework for scalable server-side apps</p>
+            <span class="cert-issuer">Udemy</span>
+          </div>
+          <span class="cert-badge">Verified</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-glow"></div>
+          <div class="cert-icon-wrap ai">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="cert-body">
+            <h3>ChatGPT Prompt Engineering</h3>
+            <p>AI/ML prompt design and applied LLM optimization</p>
+            <span class="cert-issuer">DeepLearning.AI</span>
+          </div>
+          <span class="cert-badge">Verified</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-glow"></div>
+          <div class="cert-icon-wrap hackathon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="cert-body">
+            <h3>Gen AI Exchange Hackathon</h3>
+            <p>Participated in a competitive Gen AI hackathon — building and pitching AI-powered solutions</p>
+            <span class="cert-issuer">Google</span>
+          </div>
+          <span class="cert-badge participated">Participated</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-glow"></div>
+          <div class="cert-icon-wrap tcs">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="cert-body">
+            <h3>TCS CodeVita Season 13</h3>
+            <p>Cleared Round 1 &amp; Round 2 — one of India's largest coding competitions</p>
+            <span class="cert-issuer">TCS</span>
+          </div>
+          <span class="cert-badge achievement">Achiever</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">06 &mdash; Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-sub">
+          I'm actively looking for SDE roles and internships. Whether it's a job offer,
+          a project idea, or just a hello — my inbox is always open.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="contact-card-info reveal">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:info.sufiyan.md@gmail.com">info.sufiyan.md@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card-info reveal">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+918789109943">+91 8789109943</a>
+            </div>
+          </div>
+          <div class="contact-card-info reveal">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <span>Delhi / Gurgaon, India</span>
+            </div>
+          </div>
+          <div class="contact-socials reveal">
+            <a href="https://www.linkedin.com/in/md-sufiyan007/" target="_blank" rel="noopener" class="social-pill">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="https://github.com/iammdsufiyan" target="_blank" rel="noopener" class="social-pill">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://leetcode.com/u/u_aremdsufian/" target="_blank" rel="noopener" class="social-pill">
+              <i class="fas fa-code"></i> LeetCode
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Internship / Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hi Sufiyan, I'd like to discuss..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#home" class="footer-logo">
+        <span class="bracket">&lt;</span>Md Sufiyan<span class="bracket">/&gt;</span>
+      </a>
+      <p class="footer-copy">
+        Designed &amp; Built by <span class="gradient-text">Md Sufiyan</span> &mdash; 2025
+      </p>
+      <p class="footer-sub">Made with passion &amp; strong coffee</p>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast"></div>
+
+</body>
+</html>
